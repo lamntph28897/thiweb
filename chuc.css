@@ -1,0 +1,112 @@
+body{
+    width: 975px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+background-color: #f95512;
+width: 975px;
+    height: 100px;
+}
+header img{
+    margin: 15px 15px;
+    width: 192px;
+    height: 62px;
+    float: left;
+}
+nav{
+    margin-top: -18px;
+    width: 975px;
+    height: 30px;
+    background-color: #272f54;
+}
+nav>ul{
+    margin-left:-30px ;
+}
+nav>ul>li{
+    float:left;
+    height: 30px;
+    padding: 0px 25px;
+    list-style: none;
+line-height: 30px;
+	
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+
+}
+nav>ul>li:hover{
+    background-color: #f95512;
+}
+nav input{
+    margin-top: 5px;
+    width: 275px;
+}
+nav button{
+    margin-top: 1px;
+    background-color: #04043d ;
+    color: aliceblue;
+    border: 1px solid orangered;
+width: 90px;
+}
+.banner img{width: 975px;}
+article{
+    width: 973px;
+    height: 440px;
+}
+.td{
+    width: 975px;
+    height: 70px;
+    line-height: 70px;
+}
+.td a{
+    text-align: center;
+    text-decoration: none;
+    color: #f95512;
+    font-weight: bold;
+    font-size: 23px;
+}
+.td a:hover{
+    color: blue;
+}
+.prod1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column-gap: 26px;
+}
+.box{
+    width: 285px;
+    height: 360px;
+    border: 1px solid orangered;
+    padding: 0px 10px;
+}
+.box a{
+    float: left;
+    text-decoration: none;
+    margin: 10px 15px;
+    color: #c40d0d;
+    font-weight: bold;
+}
+.box a:hover{
+    color: blue ;
+}
+.box p{
+    margin-left: 15px;
+    text-align: left;
+}
+.box img{
+    margin-left: 5px;
+}
+.bo1{
+
+text-align: left;
+}
+footer{
+    height: 50px;
+    width: 975px;
+    line-height: 50px;
+    background-color: #f95512;
+    color: aliceblue;
+}
